@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
-import iphone17 from '../../public/iphones/iphone17.png'
-import ilogo from '../../public/iphones/ilogo.png'
+import iphone17 from '/iphones/iphone17.png'
+import ilogo from '/iphones/ilogo.png'
 
 const Banner = () => {
   return (

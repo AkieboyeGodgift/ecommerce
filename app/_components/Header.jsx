@@ -1,7 +1,7 @@
 import { Heart, Search, ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
-import HeroBg from '../../public/hero-bg.png'
+import HeroBg from '/hero-bg.png'
 
 
 const Header = () => {

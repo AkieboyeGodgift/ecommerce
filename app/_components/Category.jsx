@@ -4,12 +4,12 @@ import Image from 'next/image';
 
 // Images
 
-import iphone7 from '../../public/iphones/iphone7.png';
-import iphonexs from '../../public/iphones/iphonexs.png';
-import iphone15promax from '../../public/iphones/iphone15promax.png';
-import iphone16promax from '../../public/iphones/iphone16promax.png';
-import iphone16 from '../../public/iphones/iphone16.png';
-import iphone11 from '../../public/iphones/iphone11.png';
+import iphone7 from '/iphones/iphone7.png';
+import iphonexs from '/iphones/iphonexs.png';
+import iphone15promax from '/iphones/iphone15promax.png';
+import iphone16promax from '/iphones/iphone16promax.png';
+import iphone16 from '/iphones/iphone16.png';
+import iphone11 from '/iphones/iphone11.png';
 
 
 const Category = () => {

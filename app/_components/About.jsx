@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-import aboutimg from '../../public/iphones/iphone-img-removebg-preview.png'
-import ilogo from '../../public/iphones/ilogo.png'
+import aboutimg from '/iphones/iphone-img-removebg-preview.png'
+import ilogo from '/iphones/ilogo.png'
 
 const About = () => {
   return (

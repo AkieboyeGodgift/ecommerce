@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
 
-import iphonexs from '../../public/iphones/iphonexs.png';
-import iphone16promax from '../../public/iphones/iphone16promax.png'
-import iphone15promax from '../../public/iphones/iphone15promax.png'
+import iphonexs from '/iphones/iphonexs.png';
+import iphone16promax from '/iphones/iphone16promax.png'
+import iphone15promax from '/iphones/iphone15promax.png'
 
 const Popular = () => {
   return (
