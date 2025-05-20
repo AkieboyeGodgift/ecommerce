@@ -1,9 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-import iphone17 from '/iphones/iphone17.png'
-import ilogo from '/iphones/ilogo.png'
-
 const Banner = () => {
   return (
     <div className="banner">
@@ -16,9 +13,9 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <Image className='banner-img' src={iphone17} />
+          <Image className='banner-img' src='/iphones/iphone17.png' />
         </div>
-         <Image className='banner-bg' src={ilogo}/>
+         <Image className='banner-bg' src='/iphones/ilogo.png'/>
       </section>
     </div>
   )

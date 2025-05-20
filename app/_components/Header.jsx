@@ -1,7 +1,6 @@
 import { Heart, Search, ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
-import HeroBg from '/hero-bg.png'
 
 
 const Header = () => {
@@ -26,7 +25,7 @@ const Header = () => {
       <div className='hero-section'>
          <h1 className='ipure'>iPure</h1>
          <Image
-          src={HeroBg}
+          src='/hero-bg.png'
           className='hero-bg'
          />
          <div className='hero-down'>

@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 
-import aboutimg from '/iphones/iphone-img-removebg-preview.png'
-import ilogo from '/iphones/ilogo.png'
 
 const About = () => {
   return (
@@ -18,9 +16,9 @@ const About = () => {
           <h3>Experience iPure</h3>
         </div>
         <div className="about-image">
-          <Image src={aboutimg} alt="About iPure" />
+          <Image src='/iphones/iphone-img-removebg-preview.png' alt="About iPure" />
         </div>
-        <Image src={ilogo} className="about-background" alt="Background logo" />
+        <Image src='/iphones/ilogo.png' className="about-background" alt="Background logo" />
       </section>
     </div>
 
